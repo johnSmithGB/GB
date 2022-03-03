@@ -1,0 +1,12 @@
+- slug: /
+  model: home
+  title: Главная
+- slug: /shop
+  model: shop
+  title: Магазин
+- slug: /about
+  model: about
+  title: О нас
+- slug: /test
+  model: test
+  title: Тестовая
