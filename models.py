@@ -8,7 +8,7 @@ class Model:
 
     def getmodel(self, name):
         try:
-            with open('models/' + name + '.yaml') as yl:
+            with open('models/' + name + '.yaml', encoding="utf-8") as yl:
                 data = yaml.safe_load(yl)
                 self.title = data[0].get("title")
                 self.body = data[0].get("body")
